@@ -75,7 +75,7 @@ const ScrapeForm = () => {
         required
         mb={2}
       />
-      <Button type="button" onClick={handleSaveDetails} style={{ margin: '20px' }}>Save Details</Button>
+      <Button type="button" onClick={handleSaveDetails} style={{ margin: '20px', backgroundColor:'#ccccff' }}>Save Details</Button>
       <br />
       <Button type="submit" colorScheme="teal">Scrape</Button>
     </Box>
